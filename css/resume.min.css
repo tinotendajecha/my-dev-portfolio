@@ -57,6 +57,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -67,7 +68,7 @@ h2 {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 10px;
   }
   #sideNav .navbar-brand {
     display: flex;
