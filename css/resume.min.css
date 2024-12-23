@@ -137,3 +137,7 @@ a:focus,
 a:hover {
   color: #824027;
 }
+
+.text-bold{
+  font-weight: bolder;
+}
