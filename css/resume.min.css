@@ -142,8 +142,28 @@ a:hover {
   font-weight: bolder;
 }
 
+
+@media (max-width:520px) {
+  .small-screen-img{
+    width: 100%; /* Scales to the width of the parent container */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /
+  }
+}
+
 .small-screen-img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 400px; /* Scales to the width of the parent container */
+  height: auto; /* Maintains aspect ratio */
+  max-width: 100%; /
+}
+
+.project-container-demo{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
