@@ -167,3 +167,8 @@ a:hover {
   flex-direction: column;
   gap: 50px;
 }
+
+.demo{
+  display: flex;
+  gap: 5px;
+}
